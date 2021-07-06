@@ -18,15 +18,13 @@ body{
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
     color: white;
-
-
 }
 
 header .container{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-self: center;
+    justify-content: space-between;
     
 }
 
@@ -42,26 +40,18 @@ header nav a{
     text-decoration:none; 
     color: #aaa;
     margin-right: 10px;
-    
-
 }
 
 
 header nav a:hover{
     color: #fff;
-    
-
 }
 
 /*filme principal*/ 
 
 .filme-principal{
     font-size: 18px;
-    background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("img/t.jpg");
-    
-    
-
-
+    background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("../img/t.jpg");
     
     height: 500px;
     background-size:cover;
@@ -114,4 +104,15 @@ header nav a:hover{
 
 .filme-principal .container{
     width: 50%;
+}
+
+.box-filme{
+    height: 660px;
+    width: 440px;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel-filmes{
+    margin-top:5px;
 }
